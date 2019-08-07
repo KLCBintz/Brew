@@ -1,0 +1,23 @@
+body {
+    font-family: 'Lora', serif;
+    color: #d7bd8d;
+    margin-left: 25%; 
+    margin-right: 25%;
+    text-align: center;
+    background-image: url("img/Brew2.jpg");
+	background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.map {
+    display: flex;
+    align-items: center;
+    Padding-top: 500px; 
+}
