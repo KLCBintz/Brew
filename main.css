@@ -2,7 +2,7 @@ body {
     font-family: 'Lora', serif;
     color: #d7bd8d;
     text-align: center;
-    background-image: url("img/Brew2.jpg");
+    background-image: url("img/Brew1.jpg");
 	background-position: center top;
     background-size: cover;
 
@@ -29,4 +29,5 @@ h3 {
 .map {
     padding-top: 100px;
     display: flex;
+    margin: auto;
 }
