@@ -24,6 +24,9 @@ h3 {
     font-size: 2.5em;
 }
 
+h4 {
+    padding-top: 10vw;
+}
 #features {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -35,17 +38,19 @@ h3 {
 #slim {
     align-items: center;
     margin-left: 10vw;
+    width: 40vw;
+    height: auto;
 }
 
-#facebook {
-    padding-top: 70px;
-}
-
-#fin {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+#logo {
+    width: 45vw;
+    height: auto;
 }
 
 #map {
     padding-top: 100px;
+    width: 100%;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
 }
