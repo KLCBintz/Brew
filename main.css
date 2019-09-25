@@ -1,32 +1,51 @@
 body {
-    font-family: 'Lora', serif;
-    color: #d7bd8d;
+    font-family: clarendon-urw-extra-wide, serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #1B4384;
     text-align: center;
-    background-image: url("img/Brew1.jpg");
-	background-position: center top;
-    background-size: cover;
-
 }
 
 h1 {
-    border: 2px solid #d7bd8d;
-    background-color: black;
+    border: 2px solid #1B4384;
+    background-color: #F5EFDD;
     font-size: 4em;
     text-transform: uppercase;
     
 }
 
 h2 {
-    font-style: italic;
-    font-size: 2em;
-    text-shadow: 1px 1px 1px black;
-}
-h3 {
-    font-size: 1.5em;
-    text-shadow: 1px 1px 1px black;
+    color: #992920;
+    font-size: 3.5em;
+    text-transform: italic;
 }
 
-.map {
+h3 {
+    font-size: 2.5em;
+}
+
+#features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.8em;
+    color:black;
+    text-align: left;
+}
+
+#slim {
+    align-items: center;
+    margin-left: 10vw;
+}
+
+#facebook {
+    padding-top: 70px;
+}
+
+#fin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#map {
     padding-top: 100px;
-    display: flex;
 }
