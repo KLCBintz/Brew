@@ -51,9 +51,8 @@ h4 {
     }
 }
 
-.icon {
-    Width: 4vw;
-    height: 4vw;
+div.social {
+    margin-top: 10vw;
 }
 
 #logo {
