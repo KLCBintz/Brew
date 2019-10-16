@@ -28,8 +28,24 @@ h3 {
 }
 
 h4 {
-    padding-top: 10vw;
+    padding-top: 4em;
+    padding-bottom: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
 }
+
+h5 {
+    font-size: 1em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding-bottom: 1em;
+}
+
 #features {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -47,12 +63,21 @@ h4 {
 
 @media screen and (max-width: 768px) {
     #features {
-      font-size: 3.5vw;
+      font-size: 1.2em;
+      display: block;
+      padding-left: 10vw;
+      padding-bottom: 2em;
+    }
+    #slim {
+        align-items: center;
+        width: 50vw;
+        height: auto;
     }
 }
 
 div.social {
-    margin-top: 10vw;
+    padding-top: 3em;
+    padding-bottom: 2em;
 }
 
 #logo {
