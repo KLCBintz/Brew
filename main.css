@@ -117,3 +117,12 @@ div.social {
     padding-left: 8vw;
     padding-right: 8vw;
 }
+
+@media screen and (max-width: 768px) {
+    #swag-store, #swag-store-2 {
+        display: block;
+    }
+    .swag, .card {
+        width: inherit;
+    }
+}
