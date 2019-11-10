@@ -84,3 +84,32 @@ div.social {
     width: 60vw;
     height: auto;
 }
+
+#swag-store {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3vw;
+    grid-row-gap: 3vw;
+    padding-top: 5vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+.swag {
+    width: 25vw;
+    height: auto;
+}
+
+.card {
+    width: 25vw;
+}
+
+#swag-store-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3vw;
+    grid-row-gap: 3vw;
+    padding-top: 4vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
