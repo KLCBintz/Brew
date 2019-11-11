@@ -108,7 +108,7 @@ div.social {
     width: 25vw;
 }
 
-#swag-store-2 {
+.swag-store-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 3vw;
