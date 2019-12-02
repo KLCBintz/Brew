@@ -89,14 +89,15 @@ div.social {
     height: auto;
 }
 
+#cyber-monday {
+    display: flex;
+    justify-content: center;
+}
+
 #swag-store {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 3vw;
-    grid-row-gap: 3vw;
-    padding-top: 5vw;
-    padding-right: 5vw;
-    padding-left: 5vw;
+    justify-items: center;
 }
 
 .swag {
