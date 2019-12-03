@@ -1,129 +1,130 @@
 body {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    color: #1B4384;
-    text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #1b4384;
+  text-align: center;
 }
 
 h1 {
-    font-family: clarendon-urw-extra-wide, serif;
-    border: 2px solid #1B4384;
-    background-color: #F5EFDD;
-    font-size: 4em;
-    text-transform: uppercase;
-    
+  font-family: clarendon-urw-extra-wide, serif;
+  border: 2px solid #1b4384;
+  background-color: #f5efdd;
+  font-size: 4em;
+  text-transform: uppercase;
 }
 
 h2 {
-    font-family: clarendon-urw-extra-wide, serif;
-    color: #992920;
-    font-size: 3.5em;
-    text-transform: italic;
+  font-family: clarendon-urw-extra-wide, serif;
+  color: #992920;
+  font-size: 3.5em;
+  text-transform: italic;
 }
 
 h3 {
-    font-family: clarendon-urw-extra-wide, serif;
-    font-size: 2.5em;
+  font-family: clarendon-urw-extra-wide, serif;
+  font-size: 2.5em;
 }
 
 h4 {
-    padding-top: 4em;
-    padding-bottom: 2em;
-    text-transform: uppercase;
-    font-weight: bold;
+  padding-top: 4em;
+  padding-bottom: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 h5 {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 li {
-    padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 
 #features {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    font-size: 1.6em;
-    color:black;
-    text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1.6em;
+  color: black;
+  text-align: left;
 }
 
 #slim {
-    align-items: center;
-    margin-left: 10vw;
-    width: 40vw;
-    height: auto;
+  align-items: center;
+  margin-left: 10vw;
+  width: 40vw;
+  height: auto;
 }
 
 @media screen and (max-width: 768px) {
-    #features {
-      font-size: 1.2em;
-      display: block;
-      padding-left: 10vw;
-      padding-bottom: 2em;
-    }
-    #slim {
-        align-items: center;
-        width: 50vw;
-        height: auto;
-    }
+  #features {
+    font-size: 1.2em;
+    display: block;
+    padding-left: 10vw;
+    padding-bottom: 2em;
+  }
+  #slim {
+    align-items: center;
+    width: 50vw;
+    height: auto;
+  }
 }
 
 #shoplink {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 div.social {
-    padding-top: 3em;
-    padding-bottom: 2em;
+  padding-top: 3em;
+  padding-bottom: 2em;
 }
 
 #logo {
-    width: 60vw;
-    height: auto;
+  width: 60vw;
+  height: auto;
 }
 
 #cyber-monday {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #swag-store {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
 }
 
 .swag {
-    width: 25vw;
-    height: auto;
+  width: 25vw;
+  height: auto;
 }
 
 .card {
-    width: 25vw;
+  width: 25vw;
 }
 
 #swag-store-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 3vw;
-    grid-row-gap: 3vw;
-    padding-top: 4vw;
-    padding-left: 8vw;
-    padding-right: 8vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 3vw;
+  grid-row-gap: 3vw;
+  padding-top: 4vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
 }
 
 @media screen and (max-width: 768px) {
-    #swag-store, #swag-store-2 {
-        display: block;
-    }
-    .swag, .card {
-        width: inherit;
-    }
+  #swag-store,
+  #swag-store-2 {
+    display: block;
+  }
+  .swag,
+  .card {
+    width: inherit;
+  }
 }

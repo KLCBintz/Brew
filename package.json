@@ -1,0 +1,20 @@
+{
+  "name": "brew",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {"prettier": "^1.19.1"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KLCBintz/Brew.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KLCBintz/Brew/issues"
+  },
+  "homepage": "https://github.com/KLCBintz/Brew#readme"
+}
